@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/fondo.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  font-family: monospace;
+}
+
+
+
+/*navegador y logo*/
+header {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  background: skyblue;
+  padding-top: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+
+}
+
+/*Main general*/
+main {
+  height: 500px;
+  width: 100%;
+}
+
+/*section Reto de Codigo (izquierda)*/
+
+.dates {
+
+    padding: 17px;
+    height: 144px;
+    width: 20%;
+    background-color: white;
+    margin: 10px;
+    margin-left: 11%;
+    float: left;
+}
+
+p {
+  margin-top: 28px;
+}
+
+h3 {
+  color: #0e0275;
+}
+
+hr {
+  width: 256px;
+  margin-top: 25px;
+}
+
+/*Caja general se ecribe los tweets (Derecha)*/
+.interactiveBox {
+    margin: 10px;
+    float: left;
+    width: 671px;
+    height: auto;
+    background-color: #e8f5fd;
+    position: relative;
+}
+
+/*Area donde se escribe le tweet*/
+textarea {
+    width: 487px;
+    margin: 25px 70px 5px;
+    border: 2px solid #a4d9f9;
+    border-radius: 8px;
+    outline: none;
+    padding: 20px;
+    padding-top: 13px;
+    padding-left: 15px;
+    background-color: white;
+    overflow: hidden;
+    resize: none;
+  }
+
+/*Boton para Generar tweets*/
+button {
+    width: 88px;
+    height: 34px;
+    border: none;
+    background-color: #50b6f5;
+    margin: 1px 12px 12px 21px;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*tweets publicados*/
+.tweets {
+  padding: 17px;
+    height: 40px;
+    width: 73%;
+    background-color: white;
+    margin: 10px;
+    margin-left: 11%;
+    text-decoration: none;
+    float: left;
+    border-radius: 10px;
+}
